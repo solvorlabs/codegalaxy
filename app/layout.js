@@ -17,7 +17,9 @@ export const metadata = {
   title: "Codebase Galaxy",
   description: "Visualize any GitHub repository as an interactive 3D galaxy",
   icons: {
-    icon: "/codegalaxy.png",
+    icon: [{ url: "/codegalaxy.png?v=2", type: "image/png" }],
+    shortcut: "/codegalaxy.png?v=2",
+    apple: "/codegalaxy.png?v=2",
   },
 }
 
